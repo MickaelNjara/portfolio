@@ -19,16 +19,7 @@ with col1:
     """)
 with col2:
     # Si tu as une image ou un schéma de ton workflow n8n, mets-le dans ton repo et affiche-le :
-    # st.image("assets/n8n_workflow_1.png", caption="Exemple de workflow n8n")
-    st.code("""
-[Webhook Trigger] 
-       │
-       ▼
-[HTTP Request (HubSpot)] ──► [Data Transformation (JS)]
-                                       │
-                                       ▼
-                             [PostgreSQL Insert/Update]
-    """, language="text")
+    st.image("assets/RAG.png", caption="Exemple d'un système RAG workflow n8n")
 
 st.divider()
 
